@@ -14,6 +14,7 @@
 		BE5ABCED216CE90C00FD2A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5ABCEB216CE90C00FD2A45 /* LaunchScreen.storyboard */; };
 		BE5ABCF8216CE90C00FD2A45 /* FirstiOSappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5ABCF7216CE90C00FD2A45 /* FirstiOSappTests.swift */; };
 		BE5ABD03216CE90C00FD2A45 /* FirstiOSappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5ABD02216CE90C00FD2A45 /* FirstiOSappUITests.swift */; };
+		BE5ABD15216CF5D300FD2A45 /* ColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5ABD14216CF5D300FD2A45 /* ColorTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BE5ABCFE216CE90C00FD2A45 /* FirstiOSappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstiOSappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5ABD02216CE90C00FD2A45 /* FirstiOSappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstiOSappUITests.swift; sourceTree = "<group>"; };
 		BE5ABD04216CE90C00FD2A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5ABD14216CF5D300FD2A45 /* ColorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BE5ABCE1216CE8E100FD2A45 /* FirstiOSapp */ = {
 			isa = PBXGroup;
 			children = (
+				BE5ABD13216CF56100FD2A45 /* Model */,
 				BE5ABD10216CECA800FD2A45 /* Resources */,
 				BE5ABD12216CF0BF00FD2A45 /* Controller */,
 				BE5ABD11216CF08C00FD2A45 /* View */,
@@ -147,6 +150,14 @@
 				BE5ABCE4216CE8E200FD2A45 /* ColorChangeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE5ABD13216CF56100FD2A45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE5ABD14216CF5D300FD2A45 /* ColorTool.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			files = (
 				BE5ABCE5216CE8E200FD2A45 /* ColorChangeViewController.swift in Sources */,
 				BE5ABCE3216CE8E100FD2A45 /* AppDelegate.swift in Sources */,
+				BE5ABD15216CF5D300FD2A45 /* ColorTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
